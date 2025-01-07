@@ -13,7 +13,7 @@ class SetStateExample extends StatefulWidget {
 class _SetStateExampleState extends State<SetStateExample> {
   int _counter = 0;
   void incrementCounter() {
-    setState(() 
+    setState(() {
       _counter++;
     });
   }
