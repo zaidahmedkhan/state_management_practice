@@ -41,8 +41,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:testing/provider/counter_provider.dart';
-import 'package:testing/provider/provider_example.dart';
+import 'package:state_management_practice/provider/counter_provider.dart';
+import 'package:state_management_practice/provider/provider_example.dart';
 
 void main() {
   runApp(ChangeNotifierProvider(
@@ -54,7 +54,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: ProviderExample(),
     );
